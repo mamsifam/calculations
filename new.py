@@ -265,8 +265,11 @@ style.theme_use("clam")
 table.tag_configure('oddrow',background='white')
 table.tag_configure('evenrow',background='yellow')
 
-
-
+#create drop box
+list_menu=['Grade_7','Grade_7B','Grade_8A','Grade_8B']
+options=tk.StringVar(window)
+drop_box=tk.OptionMenu(window,options,*list_menu)
+drop_box.grid(row=2,column=20)
 
 #table.insert(parent="",index=0,values=(2,'Jhone','Deo','jhonedeo@gmail,com'))
 #table.insert(parent="",index=0,values=(1,'Aravinda','Silva','aravinda@gmail,com'))
