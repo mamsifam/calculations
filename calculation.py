@@ -23,6 +23,7 @@ labe2=tk.Label(window,text='value2')
 labe2.pack(side='left')
 entry2 =tk.Entry(window,textvariable=string_var2)
 entry2.pack(side='left')
+#checking for
 
 button=tk.Button(window,text='plus button',command=button_fun)
 button.pack(side='left')
