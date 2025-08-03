@@ -11,7 +11,7 @@ def button_fun():
     string_var3.set(total_amount)
     print(total_amount)
    
-
+#check for github
 string_var1=tk.StringVar()
 label=tk.Label(window,text='value1')
 label.pack(side='left')
